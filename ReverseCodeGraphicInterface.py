@@ -25,7 +25,7 @@ label = tk.Label(window, width=40,
                  text='message', background='white')
 label.place(x=5, y=200)
 
-box = tk.Entry(window, width=47,relief='solid')
+box = tk.Entry(window, width=47,relief='solid', font='calabri 12')
 box.place(x=5, y=5)
 
 window.title("Reverse Code")
